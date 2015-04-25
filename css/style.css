@@ -57,3 +57,12 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 }
+.headline {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 5em;
+	color: white;
+	text-transform: uppercase;
+	border: 8px solid white;
+	text-align: center;
+	margin: 0.5em 4.2em;
+}
