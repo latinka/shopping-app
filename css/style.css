@@ -158,3 +158,12 @@ li {
 	border-radius: 4px;
 	opacity: 0.9;
 }
+i {
+	float: right;
+	color: #BF9BAF;
+	margin-top: 4px;
+	margin-right: 4px; 
+}
+i:hover {
+	color: #70013F;
+}
