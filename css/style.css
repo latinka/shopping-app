@@ -140,3 +140,21 @@ button:hover {
 button:focus {
 	outline: none;
 }
+.list {
+	display: block;
+	width: 440px;
+	margin-top: 0.55em;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.6em;
+}
+li {
+	background-color: white;
+	color: #70013F;
+	line-height: 1.3em;
+	margin-bottom: 0.2em;
+	height: 34px;
+	border-radius: 4px;
+	opacity: 0.9;
+}
