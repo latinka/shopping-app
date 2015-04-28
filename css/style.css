@@ -60,12 +60,13 @@ html {
 .masthead {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 5em;
-	color: white;
+	color: #fff;
 	text-transform: uppercase;
-	border: 8px solid white;
+	border: 8px solid #fff;
 	text-align: center;
-	padding: 0.1em 0.1em;
-	margin: 0.5em 4.2em;
+	padding: 0.1em;
+	margin: 0.5em auto;
+	width: 45%
 }
 .input {
 	width: 500px;
@@ -189,5 +190,10 @@ p {
 	display: inline-block;
 	color: #BF9BAF;
 	text-decoration: line-through;
+}
+@media screen and (max-width: 300px) {
+	div {
+		width: 100%;
+	}
 }
 
