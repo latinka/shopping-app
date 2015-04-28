@@ -175,6 +175,19 @@ i:hover {
 	margin-left: 4px;
 	margin-right: 4px; 
 }
-.fa-check-square: {
+.fa-check {
+	float: left;
 	color: #70013F;
+	margin-top: 7px;
+	margin-left: 4px;
+	margin-right: 4px; 
 }
+.fa-check:hover {
+	color: #BF9BAF;
+}
+p {
+	display: inline-block;
+	color: #BF9BAF;
+	text-decoration: line-through;
+}
+
