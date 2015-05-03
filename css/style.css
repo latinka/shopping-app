@@ -79,7 +79,7 @@ html {
 }
 #input {
 	width: 85%;
-	height: 32px;
+	height: 1.8em;
 	padding-right: 0.6em;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
@@ -129,7 +129,7 @@ input, select, textarea{
 button {
 	position: absolute;
 	width: 14%;
-	height: 34px;
+	height: 2em;
 	right: 0;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
@@ -162,7 +162,7 @@ li {
 	color: #70013F;
 	line-height: 1.6em;
 	margin-bottom: 0.2em;
-	height: 34px;
+	height: 1.6em;
 	border-radius: 4px;
 	opacity: 0.9;
 	box-shadow: -1.2px 1.3px 2px #31233B;
@@ -173,8 +173,8 @@ li:first-letter {
 .fa-trash {
 	float: right;
 	color: #BF9BAF;
-	margin-top: 7px;
-	margin-right: 4px; 
+	margin-top: 0.3em;
+	margin-right: 0.2em; 
 }
 i:hover {
 	color: #70013F;
@@ -182,16 +182,16 @@ i:hover {
 .fa-check-square {
 	float: left;
 	color: #BF9BAF;
-	margin-top: 6px;
-	margin-left: 4px;
-	margin-right: 7px; 
+	margin-top: 0.25em;
+	margin-left: 0.2em;
+	margin-right: 0.3em; 
 }
 .fa-check {
 	float: left;
 	color: #70013F;
-	margin-top: 7px;
-	margin-left: 4px;
-	margin-right: 4px; 
+	margin-top: 0.3em;
+	margin-left: 0.2em;
+	margin-right: 0.2em; 
 }
 .fa-check:hover {
 	color: #BF9BAF;
@@ -202,10 +202,11 @@ p {
 	text-decoration: line-through;
 }
 @media screen and (max-width: 1023px) {
+
 	.masthead {
     margin: 0.5;
     border: 0px;
-    font-size: 2em;
+    font-size: 2.5em;
 	}
   
   .input {
@@ -220,7 +221,6 @@ p {
   }
   .fa-check-square {
     color: #70013F;
-    top: 1rem;
   }
   .fa-check {
     color: #BF9BAF;
