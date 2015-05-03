@@ -66,18 +66,21 @@ html {
 	text-align: center;
 	padding: 0.1em;
 	margin: 0.5em auto;
-	width: 45%
+	width: 45%;
 }
 .input {
-	width: 500px;
+	position: relative;
+	padding-right: 1em;
+	width: 35%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	text-align: center;
+	box-sizing: border-box;
 }
 #input {
-	width: 380px;
+	width: 85%;
 	height: 32px;
+	padding-right: 0.6em;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
     font-size: 1.4em;
@@ -124,7 +127,10 @@ input, select, textarea{
     color: #70013F;
 }
 button {
+	position: absolute;
+	width: 14%;
 	height: 34px;
+	right: 0;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
     font-size: 1.3em;
@@ -142,8 +148,9 @@ button:focus {
 	outline: none;
 }
 .list {
+	list-style: none;
 	display: block;
-	width: 440px;
+	width: 35%;
 	margin-top: 0.55em;
 	margin-left: auto;
 	margin-right: auto;
@@ -160,6 +167,9 @@ li {
 	opacity: 0.9;
 	box-shadow: -1.2px 1.3px 2px #31233B;
 }
+li:first-letter {
+	text-transform: capitalize;
+}
 .fa-trash {
 	float: right;
 	color: #BF9BAF;
@@ -172,9 +182,9 @@ i:hover {
 .fa-check-square {
 	float: left;
 	color: #BF9BAF;
-	margin-top: 7px;
+	margin-top: 6px;
 	margin-left: 4px;
-	margin-right: 4px; 
+	margin-right: 7px; 
 }
 .fa-check {
 	float: left;
@@ -192,8 +202,32 @@ p {
 	text-decoration: line-through;
 }
 @media screen and (max-width: 1023px) {
-	div {
-		width: 100%;
+	.masthead {
+    margin: 0.5;
+    border: 0px;
+    font-size: 2em;
 	}
+  
+  .input {
+    width: 94%;
+  }
+  
+  .list {
+    width: 94%;
+  }
+  li {
+    border-raadius: 5px;
+  }
+  .fa-check-square {
+    color: #70013F;
+    top: 1rem;
+  }
+  .fa-check {
+    color: #BF9BAF;
+  }
+  .fa-trash {
+    color: #70013F;
+  }
 }
+
 
