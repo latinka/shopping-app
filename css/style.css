@@ -80,7 +80,7 @@ html {
 #input {
 	width: 85%;
 	height: 1.8em;
-	padding-right: 0.6em;
+	padding-right: 0.5em;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
     font-size: 1.4em;
@@ -180,11 +180,15 @@ i:hover {
 	color: #70013F;
 }
 .fa-check-square {
-	float: left;
+	visibility: hidden;
+	display: inline-block;
+	position: absolute;
+	/*float: left;*/
 	color: #BF9BAF;
 	margin-top: 0.25em;
 	margin-left: 0.2em;
 	margin-right: 0.3em; 
+	z-index: 3;
 }
 .fa-check {
 	float: left;
