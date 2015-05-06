@@ -65,12 +65,13 @@ html {
 	border: 8px solid #fff;
 	text-align: center;
 	padding: 0.1em;
-	margin: 0.5em auto;
+	margin: 1.2em auto;
 	width: 45%;
 }
 .input {
 	position: relative;
-	padding-right: 1em;
+	padding-right: 3.7em;
+	-moz-padding-end: 4em;
 	width: 35%;
 	margin-right: auto;
 	margin-left: auto;
@@ -78,9 +79,8 @@ html {
 	box-sizing: border-box;
 }
 #input {
-	width: 85%;
+	width: 100%;
 	height: 1.8em;
-	padding-right: 0.5em;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
     font-size: 1.4em;
@@ -128,9 +128,10 @@ input, select, textarea{
 }
 button {
 	position: absolute;
-	width: 14%;
 	height: 2em;
+	line-height: 1.5384;
 	right: 0;
+	bottom: 0;
 	vertical-align: middle;
 	font-family: 'Ubuntu' sans-serif;
     font-size: 1.3em;
@@ -167,9 +168,6 @@ li {
 	opacity: 0.9;
 	box-shadow: -1.2px 1.3px 2px #31233B;
 }
-li:first-letter {
-	text-transform: capitalize;
-}
 .fa-trash {
 	float: right;
 	color: #BF9BAF;
@@ -180,58 +178,49 @@ i:hover {
 	color: #70013F;
 }
 .fa-check-square {
-	visibility: hidden;
 	display: inline-block;
-	position: absolute;
-	/*float: left;*/
+	float: left;
 	color: #BF9BAF;
-	margin-top: 0.25em;
+	margin-top: 0.28em;
 	margin-left: 0.2em;
 	margin-right: 0.3em; 
-	z-index: 3;
+	
 }
 .fa-check {
 	float: left;
-	color: #70013F;
+	color: #BF9BAF;
 	margin-top: 0.3em;
 	margin-left: 0.2em;
 	margin-right: 0.2em; 
 }
-.fa-check:hover {
-	color: #BF9BAF;
-}
-p {
-	display: inline-block;
+.completed {
 	color: #BF9BAF;
 	text-decoration: line-through;
 }
 @media screen and (max-width: 1023px) {
 
 	.masthead {
-    margin: 0.5;
-    border: 0px;
-    font-size: 2.5em;
+    	margin: 0.5;
+    	border: 0px;
+    	font-size: 2.5em;
 	}
-  
-  .input {
-    width: 94%;
-  }
-  
-  .list {
-    width: 94%;
-  }
-  li {
-    border-raadius: 5px;
-  }
-  .fa-check-square {
-    color: #70013F;
-  }
-  .fa-check {
-    color: #BF9BAF;
-  }
-  .fa-trash {
-    color: #70013F;
-  }
+  	.input {
+    	width: 98%;
+  	}
+  	.list {
+    	width: 98%;
+  	}
+  	li {
+    	border-radius: 5px;
+  	}
+  	.fa-check-square {
+    	color: #70013F;
+  	}
+  	.fa-check {
+    	color: #BF9BAF;
+  	}
+  	.fa-trash {
+    	color: #70013F;
+  	}
 }
-
 
